@@ -12,10 +12,8 @@ def homepage():
 @app.route('/compracerta')
 def about_page():
     return render_template('download.html')
-@app.route('/compraerrada')
-def contact_page():
-    return render_template('compraerrada.html')
 
 #if __name__ == '__main__':
     #app.run(debug=True)
+
 
