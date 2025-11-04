@@ -17,5 +17,5 @@ def contact_page():
     return render_template('compraerrada.html')
 
 #if __name__ == '__main__':
-
     #app.run(debug=True)
+
